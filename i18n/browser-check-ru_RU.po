@@ -1,0 +1,283 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Browser Check\n"
+"POT-Creation-Date: 2016-03-12 14:33+0500\n"
+"PO-Revision-Date: 2016-03-12 14:33+0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: browser-check.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: class-browser.php:14 class-settings.php:87 templates/browser.php:12
+msgid "Mozilla Firefox"
+msgstr "Mozilla Firefox"
+
+#: class-browser.php:15 class-settings.php:111
+msgid "Internet Explorer"
+msgstr "Internet Explorer"
+
+#: class-browser.php:16 class-settings.php:95 templates/browser.php:13
+msgid "Opera"
+msgstr "Opera"
+
+#: class-browser.php:17 class-settings.php:79 templates/browser.php:11
+msgid "Google Chrome"
+msgstr "Google Chrome"
+
+#: class-browser.php:18 class-settings.php:103
+msgid "Safari"
+msgstr "Safari"
+
+#: class-browser.php:77 class-settings.php:111
+msgid "Edge"
+msgstr "Edge"
+
+#: class-settings.php:11
+msgid "Basic"
+msgstr "Основной"
+
+#: class-settings.php:12
+msgid "Minimal"
+msgstr "Минимальный"
+
+#: class-settings.php:13
+msgid "None"
+msgstr "Без стилей"
+
+#: class-settings.php:50 templates/settings.php:9
+msgid "Settings"
+msgstr "Настройки"
+
+#: class-settings.php:51
+msgid "Browser check"
+msgstr "Проверка браузера"
+
+#: class-settings.php:72
+msgid "Browsers"
+msgstr "Браузеры"
+
+#: class-settings.php:119
+msgid "Other"
+msgstr "Прочее"
+
+#: class-settings.php:126
+msgid "JavaScript"
+msgstr "JavaScript"
+
+#: class-settings.php:134
+msgid "Cookie"
+msgstr "Cookie"
+
+#: class-settings.php:142
+msgid "Adobe Flash Player"
+msgstr "Adobe Flash Player"
+
+#: class-settings.php:150
+msgid "Display"
+msgstr "Отображение"
+
+#: class-settings.php:157
+msgid "Style"
+msgstr "Стиль"
+
+#: class-settings.php:165
+msgid "Hide cancellation button"
+msgstr "Скрыть кнопку отмены"
+
+#: class-settings.php:173
+msgid "Time of cancellation"
+msgstr "Время отмены"
+
+#: class-settings.php:181
+msgid "Time between checks"
+msgstr "Время между проверками"
+
+#: class-settings.php:189
+msgid ""
+"For these browsers, specify the minimum required version. Leave field blank "
+"if the browser does not have to be checked."
+msgstr ""
+"Для следующих браузеров укажите минимальную необходимую версию. Оставьте "
+"поле пустым, если браузер не должен проходить проверку."
+
+#: class-settings.php:194
+msgid "Other checks user's browser."
+msgstr "Прочие виды проверок браузера пользователя."
+
+#: class-settings.php:198
+msgid "Settings display messages."
+msgstr "Настройки отображения сообщения о результате проверки браузера."
+
+#: class-settings.php:243
+msgid "JavaScript is required to check Cookie."
+msgstr "Для проверки Cookie необходим JavaScript."
+
+#: class-settings.php:249
+msgid ""
+"Specify a minimum required version of Flash Player. Leave field blank if "
+"check is not needed. JavaScript is required for check."
+msgstr ""
+"Укажите минимальную необходимую версию Flash Player. Оставьте поле пустым, "
+"если проверка не нужна. Для проверки необходим JavaScript."
+
+#: class-settings.php:265
+msgid "The basic set of CSS. It includes styles for different screen sizes."
+msgstr "Основной набор CSS. Включает стили для различных размеров экрана."
+
+#: class-settings.php:268
+msgid "The minimum set of CSS. Select if you want to write most styles."
+msgstr ""
+"Минимальный набор CSS. Выберите, если хотите написать большую часть стилей."
+
+#: class-settings.php:271
+msgid "CSS does not apply. Select if you want to write a styles completely."
+msgstr "CSS не применяется. Выберите, если хотите написать стили полностью."
+
+#: class-settings.php:281
+msgid "Minutes"
+msgstr "Минуты"
+
+#: class-settings.php:283
+msgid ""
+"User can hide the message on check of browser for this time. Not recommended "
+"leave field empty or equal to 0, if hide cancellation button checkbox not "
+"selected. Because then the message will be closed for the session. Duration "
+"of session depends on settings of browser."
+msgstr ""
+"Пользователь может скрыть сообщение о проверке браузера на это время. Если "
+"не выбран пункт скрыть кнопку отмены, то не рекомендуется оставлять поле "
+"пустым или равным 0. Иначе сообщение будет скрыто на время сессии, а "
+"продолжительность сессии зависит от настроек браузера пользователя."
+
+#: class-settings.php:292
+msgid "Days"
+msgstr "Дни"
+
+#: class-settings.php:294
+msgid ""
+"Successful check hide the message on check of browser for this time. Not "
+"recommended leave field empty or equal to 0. Because then the message will "
+"be closed for the session. Duration of session depends on settings of "
+"browser."
+msgstr ""
+"Успешная проверка браузера скрывает сообщение на это время. Не рекомендуется "
+"оставлять поле пустым или равным 0. Иначе сообщение будет скрыто на время "
+"сессии, а продолжительность сессии зависит от настроек браузера пользователя."
+
+#: templates/browser.php:5
+#, php-format
+msgid ""
+"Your browser %s version %s outdated. The site may not work properly. Update "
+"your browser or download and install the new one:"
+msgstr ""
+"Ваш браузер %s версии %s устарел. Сайт может работать неккоректно. Обновите "
+"ваш браузер либо скачайте и установите новый:"
+
+#: templates/cancel.php:4
+msgid "Continue browsing the site"
+msgstr "Продолжить просмотр сайта"
+
+#: templates/cookie.php:4
+msgid ""
+"Cookie are disabled in your browser. Cookie are required for the site work. "
+"Please enable Cookie in your browser."
+msgstr ""
+"В вашем браузере отключены Cookie. Для работы сайта Cookie необходимы. "
+"Включите Cookie в настройках вашего браузера."
+
+#: templates/flash.php:5
+#, php-format
+msgid ""
+"Your Flash Player version %s outdated. To work site requires Flash Player "
+"did not lower than version %s."
+msgstr ""
+"Ваш Flash Player версии %s устарел. Для работы сайта требуется Flash Player "
+"не ниже %s версии."
+
+#: templates/flash.php:10
+msgid "Update your Flash Player."
+msgstr "Обновите Flash Player."
+
+#: templates/flash.php:14
+msgid "To work site requires Flash Player."
+msgstr "Для работы сайта требуется Flash Player."
+
+#: templates/flash.php:16
+msgid "Install Flash Player."
+msgstr "Установите Flash Player."
+
+#: templates/javascript.php:5
+msgid ""
+"JavaScript are disabled in your browser. JavaScript are required for the "
+"site work. Please enable JavaScript in your browser."
+msgstr ""
+"В вашем браузере отключен JavaScript. Для работы сайта JavaScript необходим. "
+"Включите JavaScript в настройках вашего браузера."
+
+#: templates/settings.php:10
+msgid ""
+"Check user's browser for compliance with the specified requirements. User "
+"will be warned by a message if check fails."
+msgstr ""
+"Проверка браузера пользователя на соответствие указаннным требованиям. "
+"Пользователь будет предупрежден сообщением, если браузер не пройдет "
+"проверку. "
+
+#. Plugin Name of the plugin/theme
+msgid "Browser Check"
+msgstr "Проверка браузера"
+
+#. Description of the plugin/theme
+msgid "Check browser version, JavaScript, Cookie, Adobe Flash Player."
+msgstr ""
+"Проверка версии браузера, JavaScript, Cookie, версии Adobe Flash Player."
+
+#. Author of the plugin/theme
+msgid "Yaroslav Klochikhin"
+msgstr "Ярослав Клочихин"
+
+#~ msgid ""
+#~ "Check user's browser for compliance with the specified requirements. User "
+#~ "will be warned by a message if check fails. User can close the message "
+#~ "for session time."
+#~ msgstr ""
+#~ "Проверка браузера пользователя на соответствие указаннным требованиям. "
+#~ "Пользователь будет предупрежден сообщением, если браузер не пройдет "
+#~ "проверку. Пользователь может закрыть сообщение на время сессии."
+
+#~ msgid ""
+#~ "User can hide the message on check of browser for this time. Not "
+#~ "recommended leave field empty or equal to 0. Because then the message "
+#~ "will be closed for the session. Duration of session depends on settings "
+#~ "of browser."
+#~ msgstr ""
+#~ "Пользователь может скрыть сообщение о проверке браузера на это время. Не "
+#~ "рекомендуется оставлять поле пустым или равным 0. Иначе сообщение будет "
+#~ "скрыто на время сессии, а продолжительность сессии зависит от настроек "
+#~ "браузера пользователя."
+
+#~ msgid "Internet Explorer (Edge)"
+#~ msgstr "Internet Explorer (Edge)"
+
+#~ msgid ""
+#~ "Cookies are disabled in your browser. Cookies are required for the site "
+#~ "work. Please enable Cookies in your browser."
+#~ msgstr ""
+#~ "В вашем браузере отключены Cookies. Для работы сайта Cookies необходимы. "
+#~ "Включите Cookies в настройках вашего браузера."
+
+#~ msgid "Clear"
+#~ msgstr "Облегченный"
